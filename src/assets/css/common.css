@@ -37,6 +37,7 @@ body {overflow-x: hidden;}
 #footer .copy p.admin {color:#ff5500;}
 
 .ready {text-align:center; padding: 100px 0;}
+.ready .img {width:100%; max-width:250px;}
 .ready .title-1 {color:#333; font-size:18px; font-weight:bold; padding: 20px 0;}
 .ready .text {color:#888;}
 
