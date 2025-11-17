@@ -7,7 +7,7 @@ export default function Page(): ReactElement {
   useEffect(() => {}, []);
 
   return (
-    <div style={{padding: '24px', maxWidth: '900px', margin: '0 auto', lineHeight: '1.6'}}>
+    <div id="privacy">
       <h1>랜드라인 이용약관</h1>
       <p>최종 업데이트: 2025-01-01</p>
 
@@ -43,7 +43,7 @@ export default function Page(): ReactElement {
       <h2>제5조 이용자의 의무</h2>
       <ul>
         <li>① 이용자는 서비스 이용 시 다음 행위를 해서는 안 됩니다.</li>
-        <ul style={{marginLeft: '20px'}}>
+        <ul>
           <li>- 허위 정보 제공</li>
           <li>- 타인의 개인정보 도용</li>
           <li>- 서비스의 운영을 방해하는 행위</li>
@@ -76,7 +76,7 @@ export default function Page(): ReactElement {
       <p>본 약관과 관련된 분쟁은 대한민국 법을 따르며, 분쟁 발생 시 회사의 소재지 관할 법원을 전속관할로 합니다.</p>
 
       <h2>부칙</h2>
-      <p>본 약관은 2025년 1월 1일부터 시행합니다.</p>
+      <p>본 약관은 2025년 11월 1일부터 시행합니다.</p>
     </div>
   );
 }
