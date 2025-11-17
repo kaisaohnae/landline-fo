@@ -6,7 +6,7 @@ import '@/assets/css/reset.css';
 import '@/assets/css/common.css';
 import '@/assets/css/slide.css'
 import '@/assets/css/main.css'
-import '@/assets/css/qna.css'
+import '@/assets/css/counsel.css'
 import '@/assets/css/lib/swiper-bundle.min.css'
 import MetaTags from '@/components/layout/meta-tags';
 import Alert from '@/components/alert';

@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.counsel {width:100%; padding:20px; max-width:1000px; min-height: 500px; margin:0 auto; position:relative;}
+
+table.write-table {width:100%; white-space:nowrap;  background: #f9f9f9;}
+table.write-table th {text-align:left; width:90px; padding:10px; color:#333; }
+table.write-table th.required::after {content:'*'; padding-left:3px; display:inline-block; font-size:11px; color:#ff5500;}
+table.write-table td {padding:10px;}
+
+@media (max-width: 1000px), (max-height: 800px) {
+    .qna-form-popup .form {left:0; top:0; width:100%; height:100%; overflow:auto;}
+}
+
