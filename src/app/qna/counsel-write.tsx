@@ -91,8 +91,8 @@ export default function CounselWrite() {
             <th className="required">상담유형</th>
             <td>
               <select value={counselCode} onChange={e => setCounselCode(e.target.value)} required style={{width: '200px'}}>
-                {counselCodes.map(item => (
-                  <option key={item.code} value={item.codeName}>
+                {counselCodes.map((item: any, idx: number) => (
+                  <option key={idx as number} value={item.codeName}>
                     {item.codeName}
                   </option>
                 ))}
