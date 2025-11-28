@@ -124,8 +124,8 @@ export default function CounselWrite() {
           <tr>
             <th className="required">로봇방지</th>
             <td>
-              {/*6LfvzBosAAAAAIG0BrNjZqWcMGAey6cOTEMgC5yT*/}
-              <ReCAPTCHA ref={recaptchaRef} sitekey="6LfvzBosAAAAANM7L93S08xTB068SuFy16aOMrKB" onChange={handleCaptchaChange} />
+              {/*6Let0hosAAAAAIhUUS7-vlI2oDxO-nxsmymhUOUy*/}
+              <ReCAPTCHA ref={recaptchaRef} sitekey="6Let0hosAAAAAHg6mVjFmEfnCGBkBgwTJwC6CRIP" onChange={handleCaptchaChange} />
             </td>
           </tr>
         </tbody>
