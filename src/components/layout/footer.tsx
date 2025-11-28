@@ -16,7 +16,7 @@ const Footer = () => {
                 개인정보보호방침
               </Link>
             </span>
-            Email : kaisaohnae@gmail.com
+            Email : 7083620@hanmail.net
           </p>
         </div>
       </footer>
